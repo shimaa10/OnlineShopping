@@ -1,22 +1,22 @@
 # OnlineShopping
 Online Shopping Cart
 
-# after clone the code by 
+# Clone the code by 
 git clone https://github.com/shimaa10/OnlineShopping.git
 
-# goining to project path
+# Open project path
 
-# install Django 
+# Install Django 
 pip3 install django
 
-# then you can run the website by 
+# Then you can run the website by 
 python3 manage.py runserver
 
 # Superuser credentials (admin user)
 username : admin
 password : admin 
 
-# Norml user credentials
+# Normal user credentials
 username : Ahmad 
 password : ahmad123
 
