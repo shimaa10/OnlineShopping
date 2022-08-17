@@ -26,7 +26,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'shop',
     'django.contrib.humanize',
-    'widget_tweaks',
+    # 'widget_tweaks',
 
 ]
 
