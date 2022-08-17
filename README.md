@@ -13,6 +13,12 @@ python3 manage.py runserver
 username : admin
 password : admin 
 
+# also I created loggin user 
+username : Ahmad 
+password : ahmad123
+
+# you can ceate the new user by register form
+
 # Use Cases:
 1. Add to cart with logged in user (cart will be saved in browser cookies and database).
 2. Add to cart without logged in user (Cart will be saved in browser cookies), In this case the user should log in before checkout.
