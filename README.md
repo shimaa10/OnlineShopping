@@ -1,13 +1,24 @@
 # OnlineShopping
 Online Shopping Cart
 
+# Installing Prerequisites
+sudo apt update
+sudo apt install git python3-pip build-essential python3-venv python3-wheel python3-setuptools
+
 # Clone the code by 
 git clone https://github.com/shimaa10/OnlineShopping.git
 
 # Open project path
+cd /OnlineShopping
 
-# Install Django 
-pip3 install django
+# Create a new Python virtual environment 
+python3 -m venv shop-venv
+
+# Activate the virtual environment
+source shop-venv/bin/activate
+
+# Install all required Python modules with pip3
+pip3 install -r requirements.txt
 
 # Then you can run the website by 
 python3 manage.py runserver
